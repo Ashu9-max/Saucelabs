@@ -27,7 +27,7 @@ public class StandaloneTest {
 		Login ln = new Login(driver);
 		ln.loginpg("visual_user", "secret_sauce");
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		Products pd = new Products(driver);
 		pd.productspg();
 		
