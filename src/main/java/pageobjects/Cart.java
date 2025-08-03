@@ -15,6 +15,7 @@ public Cart(WebDriver driver) {
 public void cartt() {
 	
 	driver.findElement(By.xpath("//span[@class='shopping_cart_badge']")).click();
+	System.out.println("Priyanka");
 	
 }
 
